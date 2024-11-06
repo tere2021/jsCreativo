@@ -1,0 +1,23 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: system-ui, sans-serif;
+	color: black;
+	background-color: white;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+h1 {
+	margin-bottom: 20px; /* Espacio entre el título y el canvas */
+}
+#my_canvas {
+	background-color: green;
+}
